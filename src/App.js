@@ -27,7 +27,7 @@ const App = () => {
     });
 
     return unsubcribe
-}, []);
+}, [dispatch]);
   return (
     <Routes>
       <Route path='/' element={<Navigation />}>
